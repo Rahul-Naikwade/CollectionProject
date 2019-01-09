@@ -21,7 +21,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String log() {
-
+		System.out.println("hiii new repo");
 		return "login";
 	}
 
